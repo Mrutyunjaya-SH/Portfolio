@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  max-width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  color: #281736;
+}
+.highlight {
+  color: rgb(34, 211, 180);
+}
+/* FLEXBOX  AND GRID*/
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: cover;
+  height: 100vh;
+  background-image: url(./assets/fullscreen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile-pic {
+  height: 35rem;
+  width: 50rem;
+  border-radius: 20px;
+  transform: rotate(-5deg);
+  box-shadow: 0px 0px 10px 10px rgba(243, 243, 243, 0.263);
+}
+.hero-header {
+  font-weight: 400;
+  font-size: 200px;
+  z-index: 1;
+}
+.hero-header.name {
+  font-family: "Bilbo Swash Caps", cursive;
+  transform: translate(0, 56px);
+}
+.hero-header.desc {
+  transform: translate(0, -65px);
+}
+#pDesc {
+  transform: translate(0, -50px);
+  font-weight: 290;
+  font-size: 25px;
+}
+
+/* ############################# About Section ############################# */
+.about {
+  padding: 2rem;
+  padding-bottom: 0;
+  display: grid;
+
+  grid-template-columns: 35rem 1fr auto;
+  column-gap: 9rem;
+  justify-items: center;
+}
+.about p {
+  align-self: center;
+}
+.lblHeader {
+  font-size: 100px;
+  font-weight: 300;
+}
+
+#laptop-img {
+  height: 300px;
+  width: 450px;
+  border-radius: 20px;
+  grid-column: 2/2;
+  align-self: flex-start;
+  transform: rotate(-5deg) translate(0, -50px);
+  /* filter: grayscale(100%); */
+}
+#aboutDesc {
+  font-size: 2.2rem;
+  font-weight: 200;
+}
+#about-design-pic {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 20px;
+  align-self: center;
+}
+/* ############################# Experience Section ############################# */
+.experience {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 58rem 1fr;
+  gap: 5rem;
+  justify-items: center;
+  background-image: url(./assets/middle-content.png);
+}
+#experience-div {
+  /* align-self: center; */
+  /* justify-self: center; */
+  /* transform: translate(0, 25rem); */
+}
+#infy-background-img {
+  height: 350px;
+  width: 600px;
+  border-radius: 10px;
+  justify-self: center;
+  transform: translate(10rem, 0);
+}
+#experience-section-img {
+  height: 350px;
+  width: 550px;
+  border-radius: 10px;
+  transform: rotate(-5deg) translate(25rem, 0);
+}
+.description {
+  font-size: 5rem;
+  font-weight: 500;
+}
+.organisation {
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.listItems {
+  padding-top: 2rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 200;
+}
+/* ############################# Skills Section ############################# */
+.skills {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  background-size: cover;
+  gap: 3rem;
+}
+#skills-header {
+  align-self: flex-end;
+}
+.skills-container {
+  display: flex;
+  /* flex-direction: column; */
+  align-content: space-between;
+  justify-content: space-between;
+  width: 90rem;
+  height: 40rem;
+  justify-self: center;
+  align-self: flex-end;
+  transform: translate(-40rem, 38rem);
+}
+
+#lapBck {
+  height: 500px;
+  width: 330px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-self: flex-end;
+  justify-self: center;
+  transform: rotate(270deg) translate(15rem, 2rem);
+  z-index: -1;
+  /* transform:  */
+}
+#lapScreen {
+  height: 300px;
+  width: 560px;
+  border-radius: 20px;
+  /* align-self: flex-end; */
+  justify-self: flex-end;
+  filter: brightness(120%);
+  transform: rotate(-5deg) translate(10rem, 0);
+}
+/* ############################# Contact ############################# */
+.contact {
+  padding: 0 2rem;
+  padding-bottom: 0;
+  background-image: url(./assets/bottom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 40rem 1fr;
+  gap: 2rem;
+}
+.icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.cont {
+  list-style: none;
+}
+.address {
+  align-self: center;
+  justify-self: center;
+  transform: translate(15rem, -5rem);
+}
+#profile-pic-2 {
+  height: 65rem;
+  width: 46rem;
+  border-radius: 5%;
+  filter: blur(6px);
+  align-self: flex-end;
+  justify-self: flex-end;
+  transform: rotate(-5deg) translate(-12rem, -10rem);
+}
+
+/* FlOAT */
+/* #firstPage {
+  margin: 0px 10px;
+  height: 100vh;
+  max-width: 100%;
+}
+.divProfilePic img {
+  position: absolute;
+  float: left;
+  height: 350px;
+  width: 500px;
+  margin-top: 350px;
+  margin-left: 600px;
+  border-radius: 20px;
+  transform: rotate(-5deg);
+}
+#name {
+  font-family: "Bilbo Swash Caps", cursive;
+  position: absolute;
+  font-weight: 300;
+  font-size: 200px;
+  z-index: 1;
+  margin-top: 150px;
+  margin-left: 320px;
+}
+#lblPortfolio {
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 640px;
+  font-weight: 250;
+  font-size: 200px;
+  z-index: 11;
+}
+#pDesc {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 900px;
+  font-weight: 290;
+  font-size: 25px;
+  z-index: 11;
+}
+
+#secondPage {
+  margin: 0 10px;
+}
+#lblHeader2 {
+  float: right;
+  width: 500px;
+  margin: 100px 100px 0 80px;
+  font-size: 100px;
+  font-weight: 300;
+}
+#img2 {
+  float: left;
+  margin-top: 80px;
+  margin-left: 100px;
+  height: 500px;
+  width: 360px;
+  border-radius: 5%;
+}
+#laptop {
+  height: 300px;
+  width: 450px;
+  border-radius: 20px;
+  float: left;
+  margin: 380px 200px 30px 0;
+  transform: rotate(-5deg);
+}
+#aboutDesc {
+  position: absolute;
+  margin: 560px 100px 20px 920px;
+  width: 560px;
+  font-size: 25px;
+  font-weight: 250;
+}
+
+#thirdPage {
+  margin: 0 10px;
+}
+#expFirstTab {
+  float: left;
+  margin: 80px 20px 20px 200px;
+}
+#expFirstTab h1 {
+  font-size: 65px;
+  font-weight: 200;
+}
+.orgs {
+  margin: 30px 0px 10px 30px;
+  font-size: 40px;
+}
+#lblHeader3 {
+  width: 500px;
+  margin: 100px 100px 0 80px;
+  font-size: 100px;
+  font-weight: 300;
+}
+#role {
+  font-size: 20px;
+  margin: 10px 0 10px 30px;
+}
+.listItems {
+  list-style: disc;
+  font-size: 25px;
+  margin: 20px 0 10px 80px;
+}
+#infyBkgd {
+  height: 350px;
+  width: 600px;
+  border-radius: 10px;
+  margin-left: 280px;
+
+  transform: rotate(10deg);
+}
+#grpBkgd {
+  height: 350px;
+  width: 550px;
+  border-radius: 10px;
+  margin-top: 40px;
+
+  transform: rotate(-10deg);
+}
+
+#fourthPage {
+  margin: 0 10px;
+}
+#lblHeader4 {
+  position: absolute;
+  width: 500px;
+  margin: 0px 100px 0 80px;
+  font-size: 100px;
+  font-weight: 300;
+}
+#lapScreen {
+  position: absolute;
+  height: 300px;
+  width: 560px;
+  margin: 230px 0 20px 80px;
+  z-index: -1;
+  border-radius: 20px;
+  filter: brightness(120%);
+  transform: rotate(-10deg);
+}
+#sklsnNExpCont {
+  margin: 400px 40px 20px 1100px;
+}
+.sklsnNExp {
+  margin: 40px;
+}
+.seHeader {
+  font-size: 60px;
+  font-weight: 300;
+}
+#lapBck {
+  height: 400px;
+  width: 300px;
+  float: right;
+  margin: 10px 40px 0 0;
+  filter: grayscale(100%);
+} */
