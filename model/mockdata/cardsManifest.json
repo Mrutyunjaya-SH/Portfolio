@@ -57,7 +57,7 @@
             "content": {
                 "data": {
                     "request": {
-                        "url": "../cardcontent/endorsements.json"
+                        "url": "/Portfolio/cardcontent/endorsements.json"
                     }
                 },
                 "item": {
