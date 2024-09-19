@@ -15,7 +15,7 @@
             "content": {
                 "data": {
                     "request": {
-                        "url": " https://mrutyunjaya-sh.github.io/Portfolio/cardcontent/endorsements.json"
+                        "url": "Portfolio/cardcontent/sometimes.json"
                     }
                 },
                 "item": {
@@ -98,7 +98,7 @@
         "content": {
             "data": {
                 "request": {
-                    "url": "../cardcontent/workExp.json"
+                    "url": "/Portfolio/cardcontent/workExp.json"
                 }
             },
             "item": {
@@ -161,7 +161,7 @@
         "content": {
             "data": {
                 "request": {
-                    "url": "../cardcontent/education.json"
+                    "url": "/Portfolio/cardcontent/education.json"
                 }
             },
             "item": {
