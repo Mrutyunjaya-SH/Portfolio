@@ -15,7 +15,7 @@
             "content": {
                 "data": {
                     "request": {
-                        "url": "/Portfolio/cardcontent/sometimes.json"
+                        "url": "./cardcontent/sometimes.json"
                     }
                 },
                 "item": {
@@ -57,7 +57,7 @@
             "content": {
                 "data": {
                     "request": {
-                        "url": "/Portfolio/cardcontent/endorsements.json"
+                        "url": "./cardcontent/endorsements.json"
                     }
                 },
                 "item": {
@@ -98,7 +98,7 @@
         "content": {
             "data": {
                 "request": {
-                    "url": "/Portfolio/cardcontent/workExp.json"
+                    "url": "./cardcontent/workExp.json"
                 }
             },
             "item": {
@@ -161,7 +161,7 @@
         "content": {
             "data": {
                 "request": {
-                    "url": "/Portfolio/cardcontent/education.json"
+                    "url": "./cardcontent/education.json"
                 }
             },
             "item": {
