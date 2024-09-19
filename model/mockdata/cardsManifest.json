@@ -57,7 +57,7 @@
             "content": {
                 "data": {
                     "request": {
-                        "url": "...cardcontent/endorsements.json"
+                        "url": "../cardcontent/endorsements.json"
                     }
                 },
                 "item": {
@@ -98,7 +98,7 @@
         "content": {
             "data": {
                 "request": {
-                    "url": ".cardcontent/workExp.json"
+                    "url": "../cardcontent/workExp.json"
                 }
             },
             "item": {
@@ -161,7 +161,7 @@
         "content": {
             "data": {
                 "request": {
-                    "url": "./cardcontent/education.json"
+                    "url": "../cardcontent/education.json"
                 }
             },
             "item": {
