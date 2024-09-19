@@ -15,7 +15,7 @@
             "content": {
                 "data": {
                     "request": {
-                        "url": "../cardcontent/sometimes.json"
+                        "url": "Portfolio/cardcontent/sometimes.json"
                     }
                 },
                 "item": {
